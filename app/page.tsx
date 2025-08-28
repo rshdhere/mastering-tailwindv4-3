@@ -1,3 +1,9 @@
+import { Navbar } from "@/components/navbar";
+
 export default function Home() {
-  return <div>Hello there buddy</div>;
+  return (
+    <div className="h-screen bg-neutral-100">
+      <Navbar />
+    </div>
+  );
 }
